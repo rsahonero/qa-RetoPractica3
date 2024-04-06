@@ -1,5 +1,5 @@
 describe('Contact us', () => {
-    it("TC-004: FE | Verify that error message is displayed in Contact form", () => {
+    it("TC-004: FE | Error message in the Contact form when the fields are not filled", () => {
         cy.visit("http://www.testingyes.com/onlineshop/");
         cy.get('#contact-link > a').click();
         cy.get('.form-footer > .btn').click();
